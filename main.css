@@ -1,0 +1,50 @@
+.navbar .nav-link.active{
+    color: black;
+    background-color: orangered;
+    font-weight: bold;
+}
+
+header{
+    color: orangered;
+    background-color: black;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border-bottom: 8px double orangered;
+}
+
+.navbar .nav-link{
+    color: orangered;
+}
+
+section{
+    padding-top: 100px;
+}
+
+#destaques .carousel-item img{
+    width: 100%;
+    height: 400px;    
+}
+
+body{
+    background-color: black;
+    color: #C0C0C0;
+}
+
+.col-lg-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.card-title{
+    background-color: orangered;
+    color: black;
+}
+
+h3, input, .form-switch{
+    margin-bottom: 32px;
+}
